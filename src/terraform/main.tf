@@ -12,10 +12,10 @@ provider "azurerm" {
 }
 
 backend "azurerm" {
-    resource_group_name  = ""
-    storage_account_name = ""
-    container_name       = ""
-    key                  = ""
+    resource_group_name  = "tftstaterg"
+    storage_account_name = "tfstatestracc"
+    container_name       = "tfstate-container"
+    key                  = "test.tfstate"
 }
 
 resource "azurerm_resource_group" "this" {
