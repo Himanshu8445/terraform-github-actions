@@ -1,2 +1,2 @@
 # terraform-github-actions
-terraform github action
+terraform github actions
